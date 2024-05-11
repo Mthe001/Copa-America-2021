@@ -1,0 +1,175 @@
+/* Importing Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.myHero {
+  background-size: cover;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+#hero {
+  background-color: #2d25a0;
+  width: 1440px;
+  height: 677px;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+}
+header .navbar {
+  display: flex;
+  align-items: center;
+}
+.navbar .menu-links {
+  display: flex;
+  gap: 36px;
+}
+.navbar a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #ff9abf;
+  transition: 0.25s;
+}
+
+#logIn {
+  background-color: #e02c6d;
+  border-radius: 4px;
+  padding: 10px 24px;
+  gap: 8px;
+  width: 123px;
+  height: 44px;
+  cursor: pointer;
+}
+#logIn:hover {
+  color: whitesmoke;
+  transition: 0.35s;
+  background-color: #4e001db0;
+}
+#navbarGap {
+  width: 1160px;
+  height: 44px;
+  top: 49px;
+  left: 156px;
+  gap: 200px;
+}
+.hero-section {
+  height: 89vh;
+  display: flex;
+  align-items: center;
+  gap: 30%;
+}
+.hero-section .content {
+  color: #ffffff;
+  align-items: center;
+}
+.content > h1 {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 80px;
+  gap: 20px;
+}
+#liveBtn {
+  width: 168px;
+  height: 44px;
+  top: 464px;
+  left: 156px;
+  border-radius: 4px;
+  padding: 10px 24px;
+  gap: 10px;
+  background-color: #e02c6d;
+  color: whitesmoke;
+  cursor: pointer;
+}
+#liveBtn:hover {
+  background-color: #f80f65;
+  color: aliceblue;
+  transition: 0.35s;
+}
+
+.heropoint .backImg {
+  position: absolute;
+}
+.Imgdiv .heroMe {
+  position: relative;
+  left: -60px;
+}
+.Neymessi {
+  justify-content: center;
+  align-items: center;
+}
+.neymar {
+  justify-content: center;
+}
+#messi2 {
+  justify-content: center;
+}
+.textdiv > p {
+  width: 173px;
+  height: 54px;
+  padding: 10px 24px 10px 24px;
+}
+
+.textdiv > h1 {
+  font-size: 48px;
+  font-weight: 700;
+  padding: 10px 24px 10px 24px;
+}
+.textdiv > h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  padding: 10px 24px 10px 24px;
+}
+.textdiv > p {
+  width: 404px;
+  height: 113px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
+.watchBtn {
+  background-color: #e02c6d;
+  width: 173px;
+  height: 50px;
+  padding: 10px 24px 10px 24px;
+
+  color: #ffffff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.watchBtn:hover {
+  background-color: #c00a4d;
+  transition: 0.4s;
+  color: rgb(0, 0, 0);
+}
+#football {
+  width: 483px;
+  height: 213px;
+  top: 3474px;
+  left: 475px;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.lastOne {
+  padding: 60px 200px;
+  width: 483px;
+  height: 213px;
+  top: 3474px;
+  left: 475px;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
